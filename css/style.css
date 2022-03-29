@@ -1,0 +1,173 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.sky{
+    y: 0;
+    x: 0;
+    width: 100%;
+    height: 529px;
+    fill: #93d6e1;
+}
+
+.sea{
+    width: 100%;
+    fill: #253a97;
+    y: 529px;
+    x: 0;
+    width: 100%;
+    height: 311px;
+}
+
+.sand{
+    width: 100%;
+    fill: #d7d83d;
+    y: 840px;
+    x: 0;
+    width: 100%;
+    height: 165px;
+}
+
+.circle{
+    r: 65px;
+    fill: white;
+}
+
+/* Первый сет облаков */
+
+.circle-1{
+    cx: 143px;
+    cy: 115px;
+}
+
+.circle-2{
+    cx: 235px;
+    cy: 81px;
+}
+
+.circle-3{
+    cx: 300px;
+    cy: 106px;
+}
+
+.circle-4{
+    cx: 245px;
+    cy: 146px;
+}
+
+/* Второй */
+
+.circle-5{
+    cx: 530px;
+    cy: 115px;
+}
+
+.circle-6{
+    cx: 622px;
+    cy: 81px;
+}
+
+.circle-7{
+    cx: 687px;
+    cy: 106px;
+}
+
+.circle-8{
+    cx: 632px;
+    cy: 146px;
+}
+
+/* Третий */
+
+.circle-9{
+    cx: 918px;
+    cy: 115px;
+}
+
+.circle-10{
+    cx: 1010px;
+    cy: 81px;
+}
+
+.circle-11{
+    cx: 1075px;
+    cy: 106px;
+}
+
+.circle-12{
+    cx: 1000px;
+    cy: 146px;
+}
+
+/* Корабль */
+
+.ship{
+    fill: #590d0b;
+}
+
+.mast{
+    y: 268px;
+    x: 551px;
+    width: 16px;
+    height: 223px;
+    fill: #a03533;
+}
+
+.sail{
+    fill: white;
+}
+
+/* Мишень */
+
+.circle-target-1 {
+    r: 119px;
+}
+
+.circle-target-2 {
+    r: 94px;
+}
+
+.circle-target-3 {
+    r: 77px;
+}
+
+.circle-target-4 {
+    r: 60px;
+}
+
+.circle-target-5 {
+    r: 47px;
+}
+
+.circle-target-6 {
+    r: 37px;
+}
+
+.circle-target-7 {
+    r: 22px;
+}
+
+.red{
+    fill: red;
+}
+
+.white{
+    fill: white;
+}
+
+.circle-target-pos{
+    cx: 1017px;
+    cy: 744px;
+}
+
+.leg{
+    fill: #4f2c14;
+}
+
+.middle-leg{
+    y: 850px;
+    x: 1008px;
+    width: 21px;
+    height: 77px;
+}
